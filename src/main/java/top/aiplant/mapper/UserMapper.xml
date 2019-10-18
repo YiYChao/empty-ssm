@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<!--找到刚刚创建的dao接口-->
+<mapper namespace="top.aiplant.dao.UserDao">
+    
+    <!--表名-->
+    <sql id="BASE_TABLE">
+        t_user
+    </sql>
+
+    <!--获取所有用户-->
+    <select id="findUserList" resultType="top.aiplant.entity.UserModel">
+        SELECT
+          *
+        FROM
+          <include refid="BASE_TABLE"/>
+    </select>
+</mapper>

@@ -1,6 +1,9 @@
+<<<<<<< HEAD
 /.settings/  
 /target/  
 
+=======
+>>>>>>> e1409e92b27f84f876c5fded3e1b7e9abdfcdd9d
 # Compiled class file
 *.class
 
@@ -24,8 +27,11 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+<<<<<<< HEAD
 
 # Eclipse project files  
 .classpath  
 .project  
 .DS_Store
+=======
+>>>>>>> e1409e92b27f84f876c5fded3e1b7e9abdfcdd9d
